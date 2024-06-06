@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "3.app-orsys",
-    "slug": "3.app-orsys",
+    "name": "app-orsys",
+    "slug": "app-orsys",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.freezeburger.apporsys"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "49f1a699-d3e7-4a97-a554-dba44a3979cd"
+      }
     }
   }
 }
